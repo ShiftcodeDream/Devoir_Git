@@ -10,5 +10,9 @@ public class Main{
   }
   public static void addLong(long gauche, long droite){
     gauche += droite;  
+  }
+  
+  public static void addCaseZero(long[] gauche, long[] droite){
+    gauche[0] += droite[0];
   }  
 }
