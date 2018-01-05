@@ -11,6 +11,8 @@ public class Main{
     d[0] = 1500;
 
     System.out.println("Premier nombre : " + c[0] + "\nSecond nombre : " + d[0]);
+    addCaseZero(c, d);    
+    System.out.println("Premier nombre : " + c[0] + "\nSecond nombre : " + d[0]);
   }
   public static void addLong(long gauche, long droite){
     gauche += droite;  
