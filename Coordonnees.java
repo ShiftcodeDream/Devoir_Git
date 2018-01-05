@@ -20,5 +20,9 @@ public class Coordonnees{
   public Coordonnees(){
   
   }
-  
+
+  public void ajouter(Coordonnees Autre){
+    this.x += Autre.x;
+    this.y += Autre.y;
+  }  
 }
